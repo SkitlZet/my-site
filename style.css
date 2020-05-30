@@ -201,7 +201,7 @@ code {
 blockquote {
   padding-left: 10px;
   border-left: 2px solid #6a2cce;
-
+text-align: center;
   color: #6a2cce;
 }
 
@@ -214,7 +214,7 @@ cite {
 
 .danger-block {
   padding: 5px 10px;
-
+text-align: center;
   background-color: #ffd0bf;
 }
 
@@ -222,4 +222,33 @@ cite {
   padding: 5px 10px;
 
   background-color: #c6f5f0;
+}
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+
+figcaption {
+  width: 502px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(202, 224, 248);
+}
+
+.pagination a {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.pagination {
+  text-align: center;
 }
